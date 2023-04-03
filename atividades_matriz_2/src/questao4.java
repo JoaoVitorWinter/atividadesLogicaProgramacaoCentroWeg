@@ -10,7 +10,7 @@ public class questao4 {
 			for (int coluna = 0; coluna < matriz[0].length; coluna++) {
 				System.out.println("Valor da " + (linha + 1) + "° linha da " + (coluna + 1) + "° coluna:");
 				matriz[linha][coluna] = sc.nextInt();
-				cubo[linha][coluna] = (int) Math.pow(matriz[linha][coluna], 3);
+				cubo[linha][coluna] = matriz[linha][coluna] * matriz[linha][coluna] * matriz[linha][coluna];
 			}
 		}
 
