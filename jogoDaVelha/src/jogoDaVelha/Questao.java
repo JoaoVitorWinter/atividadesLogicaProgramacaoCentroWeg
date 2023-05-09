@@ -10,7 +10,7 @@ public class Questao {
 		Random random = new Random();
 
 		char[][] jogoDaVelha = { { ' ', ' ', ' ' }, { ' ', ' ', ' ' }, { ' ', ' ', ' ' } };
-		int vencedor = 0, linhaJogada, colunaJogada;
+		int linhaJogada, colunaJogada;
 
 		System.out.println("Bem-vindo ao jogo da velha!");
 		System.out.println("Aqui, você jogará contra um bot!");
