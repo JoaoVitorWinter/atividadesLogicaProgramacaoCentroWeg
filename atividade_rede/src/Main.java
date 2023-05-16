@@ -14,10 +14,10 @@ public class Main {
 		String[] mascaraSeparada = mascara.split("\\.");
 		
 		for (int indice = 0; indice < 4; indice++) {
-		    if (mascaraSeparada[indice] == "255") {
+		    if (mascaraSeparada[indice].equals("255")) {
 		        ipRede[indice] = Integer.parseInt(mascaraSeparada[indice]);
 		        ipBroadcast[indice] = Integer.parseInt(ipSeparado[indice]);
-		    } else if (mascaraSeparada[indice] == "0") {
+		    } else if (mascaraSeparada[indice].equals("0")) {
 		        ipRede[indice] = 0;
 		        ipBroadcast[indice] = 255;
 		    } else {
