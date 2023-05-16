@@ -15,7 +15,7 @@ public class Main {
 		
 		for (int indice = 0; indice < 4; indice++) {
 		    if (mascaraSeparada[indice].equals("255")) {
-		        ipRede[indice] = Integer.parseInt(mascaraSeparada[indice]);
+		        ipRede[indice] = Integer.parseInt(ipSeparado[indice]);
 		        ipBroadcast[indice] = Integer.parseInt(ipSeparado[indice]);
 		    } else if (mascaraSeparada[indice].equals("0")) {
 		        ipRede[indice] = 0;
